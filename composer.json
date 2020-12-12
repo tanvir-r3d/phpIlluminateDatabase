@@ -1,0 +1,23 @@
+{
+    "name": "tanvirhossen/databaseproject",
+    "description": "Learning Composer with illuminate database.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tanvir-hossen",
+            "email": "tanvirhossen112@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "8.18.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}
